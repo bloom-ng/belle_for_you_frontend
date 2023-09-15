@@ -35,8 +35,8 @@
 </nav>
  <!-- /Navbar -->
 
- <section class="p-8 md:px-28">
-    <div class="grid grid-cols-1 md:grid-cols-2">
+ <section class="p-8 md:px-28 fleX">
+    <div class="grid grid-cols-1  xl:grid-cols-2">
         <div class="bg-gray-100 h-62 w-62 md:h-[450px] md:w-[500px] flex justify-center items-center rounded-xl ">
             <img src="../images/pngwing2.png" alt="" srcset="">
         
