@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belle You - Product</title>
+    <title>Belle You - About Us</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/inter.css">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-</head>  
+</head>
 <body>
-     <!-- Navbar -->
+    <!-- Navbar -->
     <nav class="py-10 md:flex lg:flex bg-[#FFFBEF] w-full border-b border-[#382B00] hidden">
         <div class="w-[30%] pl-10 lg:pl-24 font-inter font-bold"><a href="">Belle For You</a></div>
         <ul class="flex space-x-8 w-[50%] font-medium">
@@ -54,7 +58,7 @@
         </button>
     </header>
 
-    <nav id="menu" class="flex flex-col pl-10 hidden">
+    <nav id="menu" class="flex-col pl-10 justify-start hidden">
         <a href="">Category</a>
         <a href="">Deals</a>
         <a href="">What's New</a>
@@ -63,65 +67,20 @@
     </nav>
     <!-- mobile end -->
 
-    <section class="p-8 lg:px-25 flex flex-col lg:flex-row lg:space-x-10">
-        <div class="flex flex-col">
-            <div class="bg-gray-100 h-[600px] w-full flex justify-center items-center rounded-xl ">
-                <img src="../images/pngwing2.png" alt="" srcset="" class="h-full">           
-            </div>
-
-            <div class="flex flex-row justify-between space-x-4 mt-4">
-                <div class="bg-gray-50 rounded-xl ">
-                    <img src="../images/pngwing2.png" class="object-fit" alt="" srcset="">    
-                </div>
-
-                <div class="bg-gray-50 rounded-xl ">
-                    <img src="../images/pngwing.png" class="object-fit" alt="" srcset="">    
-                </div>
-
-                <div class="bg-gray-50 rounded-xl ">
-                    <img src="../images/pngwing2.png" class="object-fit" alt="" srcset="">    
-                </div>
-
-                <div class="bg-gray-50 rounded-xl ">
-                    <img src="../images/pngwing2.png" class="object-fit" alt="" srcset="">    
-                </div>
-            </div>
+    <section class="w-full lg:flex-row flex flex-col justify-center items-center p-10">
+        <div class="lg:w-1/2 lg:px-20 lg:mb-10 mb-16 lg:mt-10">
+            <img src="/images/aboutimage.jpg" alt="image">
         </div>
-        
-        <div class="lg:w-[40%] w-full py-4 flex flex-col space-y-7 mt-10 lg:mt-0">
-            <h1 class="text-3xl">First Asoebi Product Name</h1>
-
-            <p class="text-2xl font-medium">₦23,300</p>
-
-            <p class="leading-7 font-normal text-lg">
-                Lorem ipsum dolor sit amet consectetur. Dignissim massa porttitor fringilla lacus 
-                fermentum maecenas diam. Adipiscing aliquet pharetra tempus commodo nibh. Pharetra 
-                vulputate at venenatis id. Dolor ipsum lorem nunc arcu erat duis euismod molestie ipsum.
-            </p>
-
-            <div class="my-12 border-t">
-                <p class="py-2 mt-7">Size</p>
-
-                <button type="button" class="bg-gray-100 w-64 text-start px-5 py-2 rounded-full text-center whitespace-nowrap mt-5"> Please select
-                    <select name="" id="" class="bg-transparent float-right"></select>
-                </button>
-                    
-                <div class="flex justify-between items-center bg-gray-100 w-64 lg:w-24 rounded-3xl space-x-2 px-6 flex my-5 text-2xl mt-7">
-                    <button>+</button>
-                    <button>1</button>
-                    <button>-</button>
-                </div>
-
-                <div class="mt-3 space-x-3">
-                    <button class="bg-[#D4AF37]  border-2 border-[#D4AF37] text-white font-semibold px-4 py-2 md:px-8 md:py-2 rounded-3xl">Buy Now</button>
-                    <button class="bg-white  border-2 border-[#D4AF37] text-[#D4AF37] font-semibold px-4 py-2 md:px-8 md:py-2 rounded-3xl">Buy Now</button>
-                    <i class="bi bi-heart"></i>    
-                </div>
-            </div>  
+  
+        <div class="lg:w-1/2 lg:px-20 lg:py-10">
+            <h1 class="font-inter text-3xl font-bold">About Us</h1>
+            <p class="font-inter text-lg">Lorem ipsum dolor sit amet consectetur. Dignissim massa porttitor fringilla lacus fermentum maecenas diam. Adipiscing aliquet pharetra tempus commodo nibh. Pharetra vulputate at venenatis id. Dolor ipsum lorem nunc arcu erat duis euismod molestie ipsum. Lorem ipsum dolor sit amet consectetur. Dignissim massa porttitor fringilla lacus fermentum maecenas diam. Adipiscing aliquet pharetra tempus commodo nibh. Pharetra vulputate at venenatis id.</p>
+            <br> 
+            <p class="font-inter text-lg">Dolor ipsum lorem nunc arcu erat duis euismod molestie ipsum. Lorem ipsum dolor sit amet consectetur. Dignissim massa porttitor fringilla lacus fermentum maecenas diam. Adipiscing aliquet pharetra tempus commodo nibh. Pharetra vulputate at venenatis id. Dolor ipsum lorem nunc arcu erat duis euismod molestie ipsum. Lorem ipsum dolor sit amet consectetur. Dignissim massa porttitor fringilla lacus fermentum maecenas diam. </p>
+            <br>
+            <p class="font-inter text-lg">Dignissim massa porttitor fringilla lacus fermentum maecenas diam. Adipiscing aliquet pharetra tempus commodo nibh. Pharetra vulputate at venenatis id. Dolor ipsum lorem nunc arcu erat duis euismod molestie ipsum.</p>      
         </div>
-
     </section>
-
 
     <!-- Newsletter -->
     <section class="md:px-28 p-5">
@@ -132,36 +91,41 @@
             <input class="p-3 rounded-lg w-62 md:w-80 outline-none " type="email" name="email" id="" placeholder="Enter your email" >
             <input class="ml-4 bg-[#D4AF37] px-7 py-3 rounded-lg text-white font-medium" type="submit" value="Subscribe">
         </div>
+        </div>
     </section>
-    <!-- /Newsletter -->
+        <!-- /Newsletter -->
 
-    <!-- Footer -->
+       <!-- Footer -->
 
-    <footer class="lg:px-28 p-5 bg-[#FFFBEF] border-t-2 border-amber-800 mt-10">
-        <div class="flex md:flex-row flex-col lg:justify-between ">
-            <div>
-            <h1 class="lg:text-2xl md:text-xl text-2xl md:mb-0 mb-5 md:mt-2 font-bold">Belle For You</h1>
-        </div>
-        <div class="flex items-center md:mb-0 mb-8">
-            <ul class="flex flex-col md:flex-row items-start md:items-center md:gap-0 gap-1 space-x-0 md:space-x-8 lg:space-x-12 md:ml-20 font-medium">
-                <li><a href="#">Category</a></li>
-                <li><a href="#">Deals</a></li>
-                <li><a href="#">Whats New</a></li>
-            </ul>
-        </div>
-        <div class="flex items-center md:mb-0 mb-2">
-            <ul class="flex items-center space-x-4 md:space-x-4 md:ml-20 font-medium">
-                <a href="#"><img src="../images/facebook.svg" alt="">
-                </a>
-                <a href="#"><img src="../images/wi.png" alt="">
-                </a>
-                <a href="#"><img src="../images/linkedin.png" alt="">
-                </a>
-                <a href="#"><img src="../images/insagram.png" alt="">
-                </a>
-            </ul>
-        </div>
-    </footer>
+        <footer class="lg:px-28 p-5 bg-[#FFFBEF] border-t-2 border-amber-800 mt-10">
+            <div class="flex md:flex-row flex-col lg:justify-between ">
+               <div>
+                <h1 class="lg:text-2xl md:text-xl text-2xl md:mb-0 mb-5 md:mt-2 font-bold">Belle For You</h1>
+            </div>
+            <div class="flex items-center md:mb-0 mb-8">
+                <ul class="flex flex-col md:flex-row items-start md:items-center md:gap-0 gap-1 space-x-0 md:space-x-8 lg:space-x-12 md:ml-20 font-medium">
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Whats New</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center md:mb-0 mb-2">
+                <ul class="flex items-center space-x-4 md:space-x-4 md:ml-20 font-medium">
+                    <a href="#"><img src="../images/facebook.svg" alt="">
+                    </a>
+                    <a href="#"><img src="../images/wi.png" alt="">
+                    </a>
+                    <a href="#"><img src="../images/linkedin.png" alt="">
+                    </a>
+                    <a href="#"><img src="../images/insagram.png" alt="">
+                    </a>
+                </ul>
+            </div>
+        </footer>
+
+        
 
     </body>
 </html>
+
+<script src="/js/hamburger.js"></script>
