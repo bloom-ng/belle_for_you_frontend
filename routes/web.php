@@ -49,8 +49,8 @@ Route::get('/saved', function () {
     return view('saved');
 });
 
-Route::get('/accountdetails', function () {
-    return view('accountdetails');
+Route::get('/accountsettings', function () {
+    return view('accountsettings');
 });
 
 Route::get('/checkout', function () {
